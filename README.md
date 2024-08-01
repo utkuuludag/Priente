@@ -41,8 +41,8 @@ This project is a simple WebSocket server implemented in GoLang. The server uses
     - src/app.js: A simple JavaScript page to test WebSocket connection.
     - internal/server.go: Contains the WebSocket server logic.
 
-## **Running the Server**
-    1. **Start the WebSocket Server:**
+## Running the Server
+    1. Start the WebSocket Server:
 
         - Navigate to the project root directory and run: "go run src/main.go"
         - Alternatively, you can start the project using the main.exe located in the root directory: ./main.exe
@@ -51,7 +51,7 @@ This project is a simple WebSocket server implemented in GoLang. The server uses
         http://localhost:8080
 
 
-    2. **Access the Web Interface:**
+    2. Access the Web Interface:
         Open a web browser and go to 
 
         http://localhost:8080 
