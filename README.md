@@ -47,15 +47,21 @@ This project is a simple WebSocket server implemented in GoLang. The server uses
         - Navigate to the project root directory and run: "go run src/main.go"
         - Alternatively, you can start the project using the main.exe located in the root directory: ./main.exe
         This will start the server on 
+        
         ```bash
-        http://localhost:8080```.
+        http://localhost:8080
+
+
     2. **Access the Web Interface:**
         Open a web browser and go to 
         ```bash
         http://localhost:8080 
+        
         or 
+        
         ```bash
         http://localhost:8080/index.html 
+        
         to load the client interface.
 
 ## **Testing the WebSocket**
