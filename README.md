@@ -27,27 +27,36 @@ This project is a simple WebSocket server implemented in GoLang. The server uses
 
 2. **Initialize Go Modules:**
 
+    ```bash
     go mod tidy
 
 3. **Install Dependencies:**
-
+    ```bash
     go get -u github.com/gorilla/websocket
 
 
-- **Project Structure**
+## **Project Structure**
     - src/main.go: The entry point for the WebSocket server.
     - src/index.html: A simple client HTML page to test the WebSocket connection.
     - src/app.js: A simple JavaScript page to test WebSocket connection.
     - internal/server.go: Contains the WebSocket server logic.
 
-- **Running the Server**
-    1. Start the WebSocket Server:
+## **Running the Server**
+    1. **Start the WebSocket Server:**
 
         - Navigate to the project root directory and run: "go run src/main.go"
         - Alternatively, you can start the project using the main.exe located in the root directory: ./main.exe
-        This will start the server on http://localhost:8080.
-    2. Access the Web Interface:
-        Open a web browser and go to http://localhost:8080 or http://localhost:8080/index.html to load the client interface.
+        This will start the server on 
+        ```bash
+        http://localhost:8080.
+    2. **Access the Web Interface:**
+        Open a web browser and go to 
+        ```bash
+        http://localhost:8080 
+        or 
+        ```bash
+        http://localhost:8080/index.html 
+        to load the client interface.
 
-- **Testing the WebSocket**
+## **Testing the WebSocket**
     To test the WebSocket server, open multiple browser windows or tabs and connect to the server using the provided client interface. You can send messages from any connected client, and all other clients should receive the broadcasted messages.
